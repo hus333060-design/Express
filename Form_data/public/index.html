@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="script.js" type="module"></script> -->
+</head>
+<body>
+    <h1>User Form</h1>
+    <form action="/user" method="post" enctype="multipart/form-data">
+        <input type="name" name="user" value="Anshu bhardwaj"><br>
+        <input type="email" name="email" value="anshu@gmail.com"><br>
+        <input type="file" name="profilePic">
+        <button>Submit</button>
+    </form>
+</body>
+</html>
+
+<!-- server par date send ho rha hoga:
+ user=Anshu+bhardwaj&email=anshu%40gmail.com&profilePic=nature.webp -->
+ <!-- to make decode it :- use decodeURLCompent('user=Anshu+bhardwaj&email=anshu%40gmail.com&profilePic=nature.webp') -->
+<!-- TO send by diff foramt form data use enctrpt in html -->
+<!-- decodeURLCompent === enctype="application/x-www-form-urlencoded"  -->
+
+<!-- 2.enctype="multipart/form-data" :- It sends by --webkitfromboundry  in binaty format  -->
+
+<!-- 3.enctype= "text/plain" :- It sends from data in key-value pairs -->
+
+<!--  -->

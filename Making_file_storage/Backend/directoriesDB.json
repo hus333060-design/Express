@@ -1,0 +1,59 @@
+[
+    {
+        "id": "d1e2f148-82aa-48f3-a824-c7de6580085b",
+        "name": "root-anurag@gmail.com",
+        "userId": "ee30db27-2c38-4d4a-975d-58967eba84de",
+        "parentDirId": null,
+        "files": [],
+        "directories": []
+    },
+    {
+        "id": "1e446d5c-3db1-4361-bc17-c4f7820fe487",
+        "name": "root-procodrr@gmail.com",
+        "userId": "dc738d4e-3970-48a6-a15d-8c65785d6eb4",
+        "parentDirId": null,
+        "files": [],
+        "directories": []
+    },
+    {
+        "id": "dd9c7a0b-145c-4026-982a-0252b00f5203",
+        "name": "root-anshu@gmail.com",
+        "userId": "d9605066-4f4b-4ab8-9309-ff58a3fa9c3f",
+        "parentDirId": null,
+        "files": [],
+        "directories": [
+            "fc8c8021-7819-46ac-8eb7-c419c597c8e4"
+        ]
+    },
+    {
+        "id": "72674c13-7209-4af2-bf47-d23f06c17e54",
+        "name": "root-nina@gmail.com",
+        "userId": "c5ae0835-582f-467d-a974-8501cbcd9974",
+        "parentDirId": null,
+        "files": [],
+        "directories": [
+            "e424006a-b843-4978-b6a2-40e7ffa07659"
+        ]
+    },
+    {
+        "id": "e424006a-b843-4978-b6a2-40e7ffa07659",
+        "name": "New Folder 1",
+        "parentDirId": "72674c13-7209-4af2-bf47-d23f06c17e54",
+        "files": [
+            "c3f19385-74dd-48da-92e2-0b0edbd7cbf8",
+            "2de59bc3-e35f-484e-a56a-af94bd983f70"
+        ],
+        "userId": "c5ae0835-582f-467d-a974-8501cbcd9974",
+        "directories": []
+    },
+    {
+        "id": "fc8c8021-7819-46ac-8eb7-c419c597c8e4",
+        "name": "New Folder1",
+        "parentDirId": "dd9c7a0b-145c-4026-982a-0252b00f5203",
+        "files": [
+            "47d6cf5e-e6b9-4480-8fb3-9e4e47d9da90"
+        ],
+        "userId": "d9605066-4f4b-4ab8-9309-ff58a3fa9c3f",
+        "directories": []
+    }
+]
